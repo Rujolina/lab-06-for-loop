@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <<script>
+    var average = 0;
+    var sum = 0;
+      //each time the page reloads, we reset the value
+
+    for (var i = 0; i < 4; i = i + 1) {
+      var userinput = prompt("Number please...");
+      var usernum = parseInt(userinput,10);
+      sum = sum + usernum;
+      console.log("user number is: " + usernum + " and the current sum is: " + sum);
+
+    }
+    average = sum / 4;
+    console.log("The average is:" + average);
+
+
+    </script>
+
+  </body>
+</html>
